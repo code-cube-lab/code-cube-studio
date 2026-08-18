@@ -51,10 +51,17 @@ async function main() {
     for (let index = 0; index < await caseImages.count(); index += 1) {
       await caseImages.nth(index).scrollIntoViewIfNeeded();
     }
-    await desktop.waitForTimeout(500);
+    await desktop.waitForFunction(
+      () => [...document.querySelectorAll(".case-photo img")].every((image) => image.complete && image.naturalWidth > 0),
+      null,
+      { timeout: 15_000 },
+    ).catch(() => {});
     report.cases = await desktop.locator(".case-photo img").evaluateAll((images) => ({
       count: images.length,
       loaded: images.filter((image) => image.complete && image.naturalWidth > 0).length,
+      unloaded: images
+        .filter((image) => !image.complete || image.naturalWidth === 0)
+        .map((image) => image.getAttribute("src")),
     }));
     if (report.cases.count !== 14 || report.cases.loaded !== 14) {
       errors.push(`cases.html: expected 14 loaded images, got ${report.cases.loaded}/${report.cases.count}`);
