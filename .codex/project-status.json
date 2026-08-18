@@ -16,7 +16,7 @@
                        "name":  "audit",
                        "state":  "passed",
                        "evidence":  [
-                                        "Four public projects opened in Codex browser; market-audit.md created"
+                                        "Four public projects opened in Codex browser; 20 local master projects inventoried; market-audit.md updated"
                                     ],
                        "note":  ""
                    },
@@ -32,8 +32,8 @@
                        "name":  "build",
                        "state":  "passed",
                        "evidence":  [
-                                        "Seven-page static architecture selected",
-                                        "SITE_CHECK=PASS; 7 core pages; JS_SYNTAX=PASS; local HTTP 8/8"
+                                        "Seven-page static architecture plus Telegram and Avito deliverable packages",
+                                        "SITE_CHECK=PASS; 7 core pages; JS_SYNTAX=PASS; local and public HTTP checks passed"
                                     ],
                        "note":  ""
                    },
@@ -41,9 +41,9 @@
                        "name":  "telegram",
                        "state":  "passed",
                        "evidence":  [
-                                        "Local Telegram draft links verified for calculator and brief; live send not performed"
+                                        "Bot source, Mini App, channel passport, calendar and 15 launch posts prepared; live send not performed"
                                     ],
-                       "note":  "Scope is handoff links only, not a live bot build"
+                       "note":  "Local source verified; BotFather, token, channel creation and Telegram runtime remain unverified"
                    },
                    {
                        "name":  "payments",
@@ -57,7 +57,7 @@
                        "name":  "qa",
                        "state":  "passed",
                        "evidence":  [
-                                        "qa-report.md; desktop/mobile Codex Browser checks; zero console errors"
+                                        "qa-report.md; GitHub Pages workflow success; HTTP 200 for pages/assets; Playwright 390px no overflow"
                                     ],
                        "note":  ""
                    },
@@ -65,8 +65,8 @@
                        "name":  "handoff",
                        "state":  "passed",
                        "evidence":  [
-                                        "README.md and local server command prepared",
-                                        "Local site opened visibly in Codex Browser at http://127.0.0.1:4173/index.html; README.md and qa-report.md present"
+                                        "README.md, local server command and 20 portable packages prepared",
+                                        "Public site verified at https://code-cube-lab.github.io/code-cube-studio/; repository code-cube-lab/code-cube-studio contains expected files"
                                     ],
                        "note":  ""
                    }
