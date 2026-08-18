@@ -1,0 +1,74 @@
+﻿{
+    "schema_version":  1,
+    "project_path":  "C:\\Users\\GIGA\\Documents\\Codex\\2026-08-12\\new-chat\\outputs\\code-cube-digital-studio",
+    "current_stage":  "handoff",
+    "updated_at":  "2026-08-18T19:37:01.5135070Z",
+    "stages":  [
+                   {
+                       "name":  "intake",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "User request captured in product-brief.md"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "audit",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "Four public projects opened in Codex browser; market-audit.md created"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "plan",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "product-brief.md and acceptance-criteria.md created"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "build",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "Seven-page static architecture selected",
+                                        "SITE_CHECK=PASS; 7 core pages; JS_SYNTAX=PASS; local HTTP 8/8"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "telegram",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "Local Telegram draft links verified for calculator and brief; live send not performed"
+                                    ],
+                       "note":  "Scope is handoff links only, not a live bot build"
+                   },
+                   {
+                       "name":  "payments",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "Not applicable per product-brief.md: lead-generation site accepts no payments"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "qa",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "qa-report.md; desktop/mobile Codex Browser checks; zero console errors"
+                                    ],
+                       "note":  ""
+                   },
+                   {
+                       "name":  "handoff",
+                       "state":  "passed",
+                       "evidence":  [
+                                        "README.md and local server command prepared",
+                                        "Local site opened visibly in Codex Browser at http://127.0.0.1:4173/index.html; README.md and qa-report.md present"
+                                    ],
+                       "note":  ""
+                   }
+               ]
+}

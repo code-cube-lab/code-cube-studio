@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f1efe8">
+  <title>Code Cube — мини-бриф</title>
+  <script src="https://telegram.org/js/telegram-web-app.js?63"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <span class="eyebrow">CODE CUBE / MINI BRIEF</span>
+      <h1>Соберите первый контур проекта за минуту.</h1>
+      <p>Выберите направление, ориентир бюджета и главную задачу. Данные останутся в браузере, пока вы сами не откроете Telegram.</p>
+    </header>
+
+    <form id="brief">
+      <fieldset>
+        <legend>Что нужно?</legend>
+        <div class="options">
+          <label><input type="radio" name="project" value="Сайт" checked><span><strong>Сайт</strong><small>лендинг или многостраничник</small></span></label>
+          <label><input type="radio" name="project" value="Telegram-бот"><span><strong>Бот</strong><small>заявки, сценарии, интеграции</small></span></label>
+          <label><input type="radio" name="project" value="Telegram Mini App"><span><strong>Mini App</strong><small>каталог, кабинет или сервис</small></span></label>
+          <label><input type="radio" name="project" value="Система сайт + Telegram"><span><strong>Система</strong><small>сайт, бот, канал и Mini App</small></span></label>
+        </div>
+      </fieldset>
+
+      <label class="field"><span>Бюджетный ориентир</span><select name="budget"><option>до 50 000 ₽</option><option>50 000–120 000 ₽</option><option>120 000–250 000 ₽</option><option>250 000 ₽+</option><option>Нужно оценить</option></select></label>
+      <label class="field"><span>Главная задача</span><textarea name="goal" rows="4" placeholder="Например: автоматизировать заявки и показывать портфолио"></textarea></label>
+      <div class="summary" aria-live="polite"><small>Готовое сообщение</small><p id="summary"></p></div>
+      <a id="send" class="button" href="https://t.me/wise_video" target="_blank" rel="noopener">Отправить Олегу</a>
+    </form>
+  </main>
+</body>
+</html>
+

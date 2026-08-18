@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#f1efe8"/>
+  <circle cx="930" cy="160" r="260" fill="#d7e3d3"/>
+  <circle cx="90" cy="1210" r="230" fill="#c78975" opacity=".62"/>
+  <rect x="72" y="72" width="936" height="1206" rx="48" fill="none" stroke="#1b211d" stroke-width="4"/>
+  <text x="112" y="160" font-family="Segoe UI, Arial" font-size="32" font-weight="700" letter-spacing="5" fill="#496452">OLEG / CODE CUBE</text>
+  <text x="112" y="360" font-family="Segoe UI, Arial" font-size="110" font-weight="800" fill="#1b211d">САЙТЫ</text>
+  <text x="112" y="500" font-family="Segoe UI, Arial" font-size="110" font-weight="800" fill="#1b211d">БОТЫ</text>
+  <text x="112" y="640" font-family="Segoe UI, Arial" font-size="110" font-weight="800" fill="#1b211d">MINI APPS</text>
+  <line x1="112" y1="720" x2="968" y2="720" stroke="#1b211d" stroke-width="4"/>
+  <text x="112" y="825" font-family="Segoe UI, Arial" font-size="44" fill="#1b211d">Разработка под ключ</text>
+  <text x="112" y="890" font-family="Segoe UI, Arial" font-size="44" fill="#1b211d">с передачей исходников</text>
+  <rect x="112" y="1030" width="520" height="142" rx="71" fill="#1b211d"/>
+  <text x="170" y="1120" font-family="Segoe UI, Arial" font-size="52" font-weight="800" fill="#fbfaf6">от 39 000 ₽</text>
+  <text x="112" y="1230" font-family="Segoe UI, Arial" font-size="30" font-weight="700" fill="#1b211d">НАПИШИТЕ В ЧАТ АВИТО →</text>
+</svg>
+

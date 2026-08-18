@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" rx="240" fill="#1c231f"/>
+  <circle cx="830" cy="220" r="260" fill="#758297"/>
+  <circle cx="170" cy="910" r="250" fill="#c78975"/>
+  <rect x="130" y="130" width="820" height="820" rx="210" fill="none" stroke="#d7e3d3" stroke-width="18"/>
+  <text x="540" y="530" text-anchor="middle" font-family="Segoe UI, Arial" font-size="330" font-weight="900" letter-spacing="-30" fill="#fbfaf6">CC</text>
+  <text x="540" y="710" text-anchor="middle" font-family="Segoe UI, Arial" font-size="66" font-weight="800" letter-spacing="12" fill="#d7e3d3">CODE CUBE</text>
+</svg>

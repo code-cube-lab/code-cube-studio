@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#1c231f"/>
+  <circle cx="880" cy="240" r="290" fill="#758297" opacity=".7"/>
+  <circle cx="170" cy="1110" r="250" fill="#c78975" opacity=".72"/>
+  <text x="90" y="150" font-family="Segoe UI, Arial" font-size="30" font-weight="700" letter-spacing="5" fill="#d7e3d3">ПЕРВЫЙ ШАГ</text>
+  <text x="90" y="365" font-family="Segoe UI, Arial" font-size="92" font-weight="800" fill="#fbfaf6">ОПИШИТЕ</text>
+  <text x="90" y="475" font-family="Segoe UI, Arial" font-size="92" font-weight="800" fill="#fbfaf6">ИДЕЮ</text>
+  <text x="90" y="585" font-family="Segoe UI, Arial" font-size="92" font-weight="800" fill="#fbfaf6">ОБЫЧНЫМИ</text>
+  <text x="90" y="695" font-family="Segoe UI, Arial" font-size="92" font-weight="800" fill="#fbfaf6">СЛОВАМИ</text>
+  <text x="90" y="825" font-family="Segoe UI, Arial" font-size="38" fill="#d7e3d3">Без технического задания.</text>
+  <text x="90" y="882" font-family="Segoe UI, Arial" font-size="38" fill="#d7e3d3">Предложу минимальный запуск</text>
+  <text x="90" y="939" font-family="Segoe UI, Arial" font-size="38" fill="#d7e3d3">и объясню цену по составу.</text>
+  <rect x="90" y="1070" width="760" height="150" rx="75" fill="#d7e3d3"/>
+  <text x="155" y="1165" font-family="Segoe UI, Arial" font-size="46" font-weight="800" fill="#1b211d">НАПИСАТЬ В ЧАТ АВИТО →</text>
+</svg>

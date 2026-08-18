@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#11110f"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="985" cy="102" r="240" fill="#645cff" opacity=".72"/>
+  <circle cx="920" cy="520" r="190" fill="#c8ff48" opacity=".92"/>
+  <circle cx="1100" cy="480" r="50" fill="#ff655d"/>
+  <text x="72" y="82" fill="#c8ff48" font-family="Arial, sans-serif" font-weight="700" font-size="25" letter-spacing="5">OLEG / CODE CUBE</text>
+  <text x="68" y="250" fill="#fffdf8" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="86">САЙТЫ. БОТЫ.</text>
+  <text x="68" y="348" fill="#fffdf8" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="86">MINI APPS.</text>
+  <text x="72" y="425" fill="#fffdf8" font-family="Arial, sans-serif" font-size="31">Одна digital-система — от идеи до заявки.</text>
+  <rect x="72" y="486" width="460" height="66" rx="33" fill="#c8ff48"/>
+  <text x="104" y="529" fill="#11110f" font-family="Arial, sans-serif" font-weight="700" font-size="25">ПРОДУКТОВЫЙ DIGITAL-РАЗРАБОТЧИК</text>
+</svg>

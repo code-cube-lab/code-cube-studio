@@ -1,0 +1,53 @@
+:root {
+  color-scheme: light dark;
+  --bg: var(--tg-theme-bg-color, #f1efe8);
+  --surface: var(--tg-theme-secondary-bg-color, #fbfaf6);
+  --text: var(--tg-theme-text-color, #1b211d);
+  --hint: var(--tg-theme-hint-color, #697069);
+  --accent: var(--tg-theme-button-color, #496452);
+  --accent-text: var(--tg-theme-button-text-color, #ffffff);
+  --line: color-mix(in srgb, var(--text) 14%, transparent);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.shell {
+  width: min(100% - 28px, 560px);
+  margin: 0 auto;
+  padding: calc(22px + env(safe-area-inset-top)) 0 calc(30px + env(safe-area-inset-bottom));
+}
+
+.hero { padding: 12px 0 22px; }
+.eyebrow { color: var(--hint); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.13em; }
+h1 { margin: 12px 0; font-size: clamp(2rem, 9vw, 3.4rem); line-height: 0.98; letter-spacing: -0.055em; }
+p { line-height: 1.55; }
+.hero p { color: var(--hint); }
+form { display: grid; gap: 16px; }
+fieldset { margin: 0; padding: 0; border: 0; }
+legend, .field > span { display: block; margin-bottom: 10px; font-weight: 800; }
+.options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.options label { position: relative; }
+.options input { position: absolute; opacity: 0; }
+.options span { display: grid; min-height: 104px; padding: 16px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+.options strong { font-size: 1.05rem; }
+.options small { align-self: end; color: var(--hint); line-height: 1.35; }
+.options input:checked + span { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); border-color: var(--accent); }
+.field select, .field textarea { width: 100%; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--text); font: inherit; padding: 15px; }
+.field textarea { resize: vertical; }
+.summary { padding: 16px; border-radius: 18px; background: color-mix(in srgb, var(--accent) 14%, var(--surface)); }
+.summary small { color: var(--hint); }
+.summary p { margin: 8px 0 0; white-space: pre-line; }
+.button { display: block; padding: 16px 20px; border-radius: 999px; background: var(--accent); color: var(--accent-text); text-align: center; text-decoration: none; font-weight: 900; }
+
+@media (max-width: 390px) {
+  .options { grid-template-columns: 1fr; }
+  .options span { min-height: 84px; }
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#f1efe8"/>
+  <text x="80" y="130" font-family="Segoe UI, Arial" font-size="30" font-weight="700" letter-spacing="5" fill="#496452">РЕАЛЬНЫЕ ИСХОДНИКИ</text>
+  <text x="80" y="245" font-family="Segoe UI, Arial" font-size="86" font-weight="800" fill="#1b211d">ПРОЕКТЫ</text>
+  <text x="80" y="325" font-family="Segoe UI, Arial" font-size="38" fill="#697069">Без выдуманных продаж и метрик</text>
+  <g font-family="Segoe UI, Arial" font-weight="800" font-size="42" fill="#1b211d">
+    <rect x="80" y="420" width="440" height="180" rx="34" fill="#d7e3d3"/><text x="120" y="500">WISE / FRAME</text><text x="120" y="550" font-size="25" font-weight="600">Mini App + Bot</text>
+    <rect x="560" y="420" width="440" height="180" rx="34" fill="#c78975"/><text x="600" y="500">ЭКЗАМ</text><text x="600" y="550" font-size="25" font-weight="600">EdTech platform</text>
+    <rect x="80" y="640" width="440" height="180" rx="34" fill="#758297"/><text x="120" y="720" fill="#fbfaf6">ПРАВОФАКТ</text><text x="120" y="770" font-size="25" font-weight="600" fill="#fbfaf6">LegalTech</text>
+    <rect x="560" y="640" width="440" height="180" rx="34" fill="#fbfaf6" stroke="#1b211d" stroke-width="3"/><text x="600" y="720">ПОНЯТНО</text><text x="600" y="770" font-size="25" font-weight="600">Site + Bot + Mini App</text>
+    <rect x="80" y="860" width="440" height="180" rx="34" fill="#98ae87"/><text x="120" y="940">FORMA QUEST</text><text x="120" y="990" font-size="25" font-weight="600">PWA + Telegram</text>
+    <rect x="560" y="860" width="440" height="180" rx="34" fill="#b7a58f"/><text x="600" y="940">Т-18</text><text x="600" y="990" font-size="25" font-weight="600">Industrial B2B</text>
+  </g>
+  <text x="80" y="1190" font-family="Segoe UI, Arial" font-size="34" font-weight="700" fill="#1b211d">Покажу публичные версии</text>
+  <text x="80" y="1240" font-family="Segoe UI, Arial" font-size="34" font-weight="700" fill="#1b211d">и локальные сборки →</text>
+</svg>
+

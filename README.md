@@ -1,0 +1,33 @@
+# Code Cube Digital Studio
+
+Многостраничный сайт Олега — специалиста по сайтам, Telegram-ботам, Telegram Mini Apps и Telegram-каналам.
+
+Публичная версия: `https://code-cube-lab.github.io/code-cube-studio/`
+
+## Быстрый запуск
+
+```powershell
+cd "C:\Users\GIGA\Documents\Codex\2026-08-12\new-chat\outputs\code-cube-digital-studio"
+python -m http.server 4173
+```
+
+Открыть: `http://127.0.0.1:4173/`
+
+## Страницы
+
+- `index.html` — главная;
+- `services.html` — услуги;
+- `cases.html` — кейсы;
+- `pricing.html` — прайс и калькулятор;
+- `approach.html` — процесс;
+- `contacts.html` — бриф;
+- `privacy.html` — данные и внешние сервисы.
+- `telegram/` — бот, Mini App, паспорт канала и 15 стартовых постов;
+- `avito/` — профиль, три объявления, прайс и пять PNG-карточек.
+
+## Важно
+
+- GitHub Pages публикует статическую часть. Telegram-бот, webhook, серверная проверка `initData`, базы и платежи требуют отдельного HTTPS-runtime.
+- Форма не отправляет данные на сервер: она готовит ссылку для Telegram, которую пользователь открывает сам.
+- Основной контакт задан как `@wise_video`, подтверждённый в публичном проекте WISE / FRAME.
+- Перед коммерческой публикацией добавить юридические реквизиты, политику обработки данных под выбранную инфраструктуру, аналитику и окончательные условия договора.

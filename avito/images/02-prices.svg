@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#1c231f"/>
+  <text x="80" y="125" font-family="Segoe UI, Arial" font-size="30" font-weight="700" letter-spacing="5" fill="#d7e3d3">ТОЧНЫЙ СТАРТ</text>
+  <text x="80" y="245" font-family="Segoe UI, Arial" font-size="82" font-weight="800" fill="#fbfaf6">ПРАЙС БЕЗ</text>
+  <text x="80" y="335" font-family="Segoe UI, Arial" font-size="82" font-weight="800" fill="#fbfaf6">«ОТ 1 ₽»</text>
+  <g font-family="Segoe UI, Arial">
+    <rect x="80" y="430" width="920" height="150" rx="30" fill="#d7e3d3"/><text x="120" y="495" font-size="34" font-weight="700" fill="#1b211d">Лендинг</text><text x="120" y="548" font-size="42" font-weight="800" fill="#1b211d">49 000 ₽</text>
+    <rect x="80" y="610" width="920" height="150" rx="30" fill="#fbfaf6"/><text x="120" y="675" font-size="34" font-weight="700" fill="#1b211d">Telegram-бот</text><text x="120" y="728" font-size="42" font-weight="800" fill="#1b211d">от 39 000 ₽</text>
+    <rect x="80" y="790" width="920" height="150" rx="30" fill="#758297"/><text x="120" y="855" font-size="34" font-weight="700" fill="#fbfaf6">Mini App MVP</text><text x="120" y="908" font-size="42" font-weight="800" fill="#fbfaf6">от 119 000 ₽</text>
+    <rect x="80" y="970" width="920" height="150" rx="30" fill="#c78975"/><text x="120" y="1035" font-size="34" font-weight="700" fill="#1b211d">Упаковка канала</text><text x="120" y="1088" font-size="42" font-weight="800" fill="#1b211d">24 000 ₽</text>
+  </g>
+  <text x="80" y="1240" font-family="Segoe UI, Arial" font-size="28" fill="#d7e3d3">ТОЧНАЯ СМЕТА ПОСЛЕ СОСТАВА ЭТАПА</text>
+</svg>
+
