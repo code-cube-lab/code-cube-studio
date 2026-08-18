@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "ponyatno",
+    "title": "Понятно",
+    "url": "http://127.0.0.1:62346/index.html",
+    "status": 200,
+    "pageTitle": "Понятно · Администрирование"
+  },
+  {
+    "slug": "forma-quest",
+    "title": "FORMA QUEST",
+    "url": "http://127.0.0.1:52544/index.html",
+    "status": 200,
+    "pageTitle": "FORMA QUEST — фитнес, который проходит вместе с вами"
+  },
+  {
+    "slug": "landscape",
+    "title": "Облагораживание участка",
+    "url": "http://127.0.0.1:49198/index.html",
+    "status": 200,
+    "pageTitle": "Старт · Дима Облагораживание R008"
+  },
+  {
+    "slug": "mpstats",
+    "title": "MPStats",
+    "url": "http://127.0.0.1:63836/index.html",
+    "status": 200,
+    "pageTitle": "Товарная лаборатория · MPStats · Осень 2026"
+  },
+  {
+    "slug": "white-list",
+    "title": "WHITE LIST",
+    "url": "http://127.0.0.1:53348/index.html",
+    "status": 200,
+    "pageTitle": "WHITE LIST — AI Video Editor / Video Editor"
+  },
+  {
+    "slug": "mika-growth",
+    "title": "Mika Growth",
+    "url": "http://127.0.0.1:53948/index.html",
+    "status": 200,
+    "pageTitle": "Mika Growth — ролики и клиенты для Жени"
+  },
+  {
+    "slug": "telegram-leads",
+    "title": "Клиенты с телефона",
+    "url": "http://127.0.0.1:57576/Клиенты_с_телефона.html",
+    "status": 200,
+    "pageTitle": "Telegram-клиенты: точный поиск и ответы с телефона"
+  },
+  {
+    "slug": "white-list-leads",
+    "title": "WHITE LIST — лиды",
+    "url": "http://127.0.0.1:50414/index.html",
+    "status": 200,
+    "pageTitle": "WHITE LIST — клиенты для видеомонтажа"
+  },
+  {
+    "slug": "mika-oracle",
+    "title": "Mika Oracle",
+    "source": "C:\\!_1_WB\\сайты\\02_ПЕРЕНОСИМЫЕ_ПАКЕТЫ_20260818\\01_Mika_Oracle_основной\\source\\public\\og-taro-path.png",
+    "type": "project-visual"
+  },
+  {
+    "slug": "pravofakt",
+    "title": "ПравоФакт",
+    "source": "C:\\!_1_WB\\сайты\\02_ПЕРЕНОСИМЫЕ_ПАКЕТЫ_20260818\\06_ПравоФакт_юридическая_платформа\\source\\public\\pravofact-decision-map-v2.png",
+    "type": "project-visual"
+  }
+]

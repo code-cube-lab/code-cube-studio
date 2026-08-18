@@ -896,6 +896,55 @@ textarea:focus-visible {
 .case-visual[data-case="mpstats"] { --case-accent: #809e98; }
 .case-visual[data-case="whitelist"] { --case-accent: #b38a7a; }
 
+.case-photo {
+  position: relative;
+  min-height: 300px;
+  border: 1px solid rgba(24, 24, 21, 0.16);
+  border-radius: calc(var(--radius-md) - 0.4rem);
+  background: #d9d5cb;
+  overflow: hidden;
+}
+
+.case-photo::after {
+  position: absolute;
+  inset: auto 0 0;
+  height: 42%;
+  background: linear-gradient(transparent, rgba(15, 15, 13, 0.58));
+  content: "";
+  pointer-events: none;
+}
+
+.case-photo img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 420ms var(--ease), filter 420ms ease;
+}
+
+.case-card:hover .case-photo img {
+  transform: scale(1.025);
+  filter: saturate(1.04) contrast(1.02);
+}
+
+.case-photo-label {
+  position: absolute;
+  right: 0.85rem;
+  bottom: 0.8rem;
+  z-index: 1;
+  padding: 0.42rem 0.62rem;
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  border-radius: var(--radius-pill);
+  background: rgba(18, 18, 16, 0.72);
+  color: var(--white);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+}
+
 .case-browser {
   position: absolute;
   inset: 12% 8% 10%;
@@ -1922,6 +1971,14 @@ textarea:focus-visible {
 
   .case-visual {
     min-height: 255px;
+  }
+
+  .case-photo {
+    min-height: 235px;
+  }
+
+  .case-photo img {
+    height: 235px;
   }
 
   .price-card--featured {
